@@ -29,4 +29,12 @@
         android:key="displayMode"
         android:title="@string/display_options_view_mode"
         android:dialogTitle="@string/display_options_view_mode" />
+
+    <CheckBoxPreference
+        android:key="hideFrequents"
+        android:title="@string/display_options_hide_frequent"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summary="@string/display_options_hide_frequent_summary" />
+
 </PreferenceScreen>
